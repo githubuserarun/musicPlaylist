@@ -1,0 +1,26 @@
+img {
+  width: 150px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.listLeftSide {
+  display: flex;
+  gap: 30px;
+}
+.listRightSide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
